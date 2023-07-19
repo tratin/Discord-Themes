@@ -1,9 +1,12 @@
-@import url(https://markchan0225.github.io/RoundedDiscord/RoundedDiscord.theme.css);
 @import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
 @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url(https://MarkChan0225.github.io/RoundedDiscord/src/roundeddiscord.css);
+@import url(https://MarkChan0225.github.io/RoundedDiscord/src/experimental.css);
+
 
 :root {
+  --radius: 12px;
   --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
   --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
   --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
@@ -45,4 +48,31 @@
 	--background-emoji: rgb(46, 52, 64);
 	--text-lights-out: #eceff4;
 	--background-titlebar: #2e344050;
+}
+
+/* Home Button Custom Icon */ 
+.homeIcon-r0w4ny path {fill: transparent}
+
+.homeIcon-r0w4ny {
+background: url('https://art.pixilart.com/7677aecd4b27c46.gif') center/cover no-repeat;
+min-width: 92px;
+min-height: 90px;
+}
+
+.wordmarkWindows-2dq6rw svg {
+display: none;
+}
+.wordmarkWindows-2dq6rw::after {
+
+content: 'Vencord';
+display: block;
+position: relative;
+width: 200px;
+height: 16px;
+line-height: 16px;
+font-size: 14px;
+font-weight: 600;
+font-family: "Lucida Console", "Courier New", monospace;
+color: var(--muted-text);
+letter-spacing: 8px;
 }
