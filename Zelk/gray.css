@@ -17,7 +17,7 @@
   --switch: #4d4d4d !important;
   --button-background: #313131 !important;
   --button-background-hover: #414141 !important;
-  --button-background-active: #636363 !important;
+  --button-background-active: #414141 !important;
   --button-accent-hover: var(--accent-color) !important;
   --button-accent-active: var(--accent-color) !important;
   --button-destructive: #fb7c7c !important;
