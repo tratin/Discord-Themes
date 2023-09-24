@@ -19,7 +19,7 @@
   --button-background-hover: #414141 !important;
   --button-background-active: #414141 !important;
   --button-accent-hover: var(--accent-color) !important;
-  --button-accent-active: var(--accent-color) !important;
+  --button-accent-active: #414141 !important;
   --button-destructive: #fb7c7c !important;
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
