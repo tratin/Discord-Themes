@@ -1,0 +1,13 @@
+  /*     Visible Server Banner     */
+[class*=bannerVisible] > [class*=header] {
+  padding-top: 9px;
+}
+[class*=animatedContainer] {
+  opacity: 1 !important;
+  bottom: -90px;
+  top: unset;
+  height: 135px;
+}
+[class*=headerContent] {
+  filter: drop-shadow(0 1px 1px hsl(var(--black-500-hsl)/.8)) !important;
+}
